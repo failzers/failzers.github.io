@@ -1194,7 +1194,7 @@ background: #fff;
 	width:796px;
 }
 
-.colhead_dark a{
+.colhead_dark a, .head a{
 	color: #34495e;
 }
 
