@@ -223,7 +223,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #userinfo a {
 	color: #fff;
-	padding: 4px;
+	padding: 5px 4px 4px;
 }
 #userinfo a:hover {
 	text-decoration: underline;
@@ -1022,8 +1022,7 @@ td.avatar {
 }
 
 .tl_free {
-    color: #f1c40f;
-    text-shadow: 1px 1px 0 #000;
+    color: #d35400;
 }
 
 a:hover {
