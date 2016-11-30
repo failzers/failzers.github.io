@@ -158,7 +158,8 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #logo a {
 	border: none;
 	display: block;
-	width: 125px;  height: 40px;
+	width: 255px;
+	height: 40px;
 }
 
 #logo a:hover {

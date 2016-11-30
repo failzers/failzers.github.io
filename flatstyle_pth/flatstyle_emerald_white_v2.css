@@ -978,7 +978,7 @@ select,input[type="text"],input[type="email"],input[type="password"],input[type=
 	transition: 0.1s linear;
 }
 
-#searchbars input:focus {
+/*#searchbars input:focus {
     border-color: #2ecc71;
 }
 
@@ -986,7 +986,7 @@ select,input[type="text"],input[type="email"],input[type="password"],input[type=
     border-color: #2ecc71;
     background: #34495e;
     color: #fff;
-}
+}*/
 #userinfo {
     position: fixed;
     top: 0;
