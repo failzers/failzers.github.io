@@ -988,7 +988,7 @@ select,input[type="text"],input[type="email"],input[type="password"],input[type=
     color: #fff;
 }*/
 #userinfo {
-    position: absolute;
+    position: absolute!important;
     top: 0;
     left: 0;
     line-height: 20px;
