@@ -2,6 +2,8 @@
 
 Todo: Clean CSS.
 Base: layer_cake
+
+ugly css
 */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
@@ -195,17 +197,13 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #menu ul li a:hover {
-	background-color: #27ae60;
+	/*background-color: #27ae60;*/
 	text-decoration: none;
 }
 
-/*#userinfo {
+#userinfo {
 	color: #fff;
-	padding: 4px 0px;
-	width: 100%;
-	text-align: center;
-	font-size: 8pt;
-}*/
+}
 
 #userinfo img {
 	margin-top: -5px;
@@ -999,10 +997,6 @@ select,input[type="text"],input[type="email"],input[type="password"],input[type=
     background:rgba(0,0,0,.4);
 }
 
-a{
-	color: #34495e;
-}
-
 #menu ul{
 	width: 1140px;
 	margin: 0 auto;
@@ -1198,6 +1192,10 @@ background: #fff;
 
 .main_column #torrent_table{
 	width:796px;
+}
+
+.colhead_dark a{
+	color: #34495e;
 }
 
 a{
