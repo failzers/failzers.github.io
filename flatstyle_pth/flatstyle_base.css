@@ -1215,3 +1215,7 @@ a{
 img.scale_image {
     max-width: 80%!important;
 }
+
+#recent_snatches img, #recent_uploads img{
+	width: 146px;
+}

@@ -1223,3 +1223,7 @@ img.scale_image {
 #userinfo ul li#nav_userclass{
     display:none!important;
 }
+
+#recent_snatches img, #recent_uploads img{
+	width: 146px;
+}
