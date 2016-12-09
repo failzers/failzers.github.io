@@ -1225,6 +1225,6 @@ img.scale_image {
     display:none!important;
 }
 
-#user table .recent img{
+#user table.recent img{
 	width: 146px;
 }
