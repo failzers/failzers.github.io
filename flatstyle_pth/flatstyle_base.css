@@ -1216,6 +1216,6 @@ img.scale_image {
     max-width: 80%!important;
 }
 
-#recent_snatches img, #recent_uploads img{
+#user table .recent img{
 	width: 146px;
 }
