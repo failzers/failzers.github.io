@@ -1214,7 +1214,7 @@ img.scale_image {
     max-width: 80%!important;
 }
 
-#userinfo ul li:hover {
+#userinfo ul li a:hover {
     background: #2980b9;
 }
 
