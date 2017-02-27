@@ -91,3 +91,7 @@ border-color: #2c3e50;
 .unread_locked_sticky::before,.unread_sticky::before,.unread_locked::before,.unread::before{
 	color: #3498db;
 }
+
+#userinfo ul li a:hover {
+    background: #3498db;
+}
