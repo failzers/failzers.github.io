@@ -185,7 +185,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #menu ul li a {
-	padding: 1em 0;
+	display: inline-block;
 	color: #fff;
 	font-weight: bold;
 	font-family: "Metrophobic", Arial, serif;
@@ -1214,7 +1214,7 @@ img.scale_image {
     max-width: 80%!important;
 }
 
-#userinfo ul li a:hover {
+#userinfo ul li:hover {
     background: #2980b9;
 }
 
