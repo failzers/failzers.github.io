@@ -219,7 +219,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	display: inline;
 	margin: 0 0.1em;
 	line-height: 20px;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 }
 
 #userinfo a {
