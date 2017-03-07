@@ -74,6 +74,10 @@ border-color: #2c3e50;
 	color: #fff!important;
 }
 
+.tooltipster-default a{
+	color: #fff;
+}
+
 a{
 	color: #34495e;
 }
