@@ -74,8 +74,8 @@ border-color: #2c3e50;
 	color: #fff!important;
 }
 
-.tooltipster-default a{
-	color: #fff;
+div[class~=tooltipster-content] > a{
+	color: #fff!important;
 }
 
 a{
