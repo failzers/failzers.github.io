@@ -8,15 +8,15 @@ Base: layer_cake
 @import url('flatstyle_dark.css');
 
 #extra1 {
-background: #800000;
+background: #af392d;
 }
 
 .colhead_dark {
-background: #800000;
+background: #af392d;
 color: #fff;
 }
 .head {
-background: #800000;
+background: #af392d;
 color: #fff;
 }
 .head stronge{
@@ -32,22 +32,22 @@ color: #fff;
 }
 
 .center_poll {
-    background:#800000;
+    background:#af392d;
 }
 
 #searchbars input:focus {
-border-color: #800000;
+border-color: #af392d;
 background:#fff;
 color: #34495e;
 }
 
 .colhead {
-background: #800000;
+background: #af392d;
 color:#fff;
 }
 
 input[type=submit], input[type=button]{
-    background:#800000;
+    background:#af392d;
 }
 
 input[type=submit]:hover, input[type=button]:hover{
@@ -61,7 +61,7 @@ border-color: #ec7063;
 }
 
 textarea:hover,select:hover, input[type=text]:hover, input[type="email"]:hover, input[type="password"]:hover, input[type=search]:hover {
-border-color: #800000;
+border-color: #af392d;
 }
 
 textarea:active,select:active, input[type=text]:active, input[type="email"]:active, input[type="password"]:active, input[type=search]:active,
@@ -89,7 +89,7 @@ color: #f1c40f;
 }
 
 a {
-	color: #800000;
+	color: #af392d;
 }
 
 .colhead_dark a,.colhead a,.head a{
@@ -101,5 +101,5 @@ a {
 }
 
 .unread_locked_sticky::before,.unread_sticky::before,.unread_locked::before,.unread::before{
-	color: #800000;
+	color: #af392d;
 }
