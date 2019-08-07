@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body {
-    background-color: #778b4b;
+    background-color: #5b6a39;
     margin: 0px;
 }
 
@@ -20,7 +20,6 @@ body {
     font-weight: 600;
     font-family: "Roboto Mono";
     color: #fff;
-    margin-bottom: .25em;
 }
 
 #search {
@@ -50,16 +49,6 @@ body {
     text-align: center;
 }
 
-.weather-container {
-    width: 30%;
-    background-color: #272727;
-    padding: 1em;
-    border-radius: 3px;
-    font-family: "Roboto Mono";
-    color: #fff;
-    text-align: center;
-    margin: 0em 0em;
-}
 .inline {
     display: inline-block;
 }
