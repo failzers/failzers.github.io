@@ -18,32 +18,37 @@
             <div class="bookmark-set">
                 <div class="bookmark-title">Trackers</div>
                 <div class="bookmark-inner-container">
-                    <a class="bookmark" href="https://redacted.ch/">REDacted</a>
-                    <a class="bookmark" href="https://passthepopcorn.me/">PassThePopcorn</a>
+                    <a class="bookmark" href="https://animebytes.tv" traget="_blank">AnimeBytes</a>
                     <a class="bookmark" href="https://gazellegames.net/">GazelleGames</a>
-                    <a class="bookmark" href="https://retrowithin.com/">RetroWithin</a>
                     <a class="bookmark" href="https://iptorrents.com">IPTorrents</a>
                     <a class="bookmark" href="https://myanonamouse.net">MyAnonaMouse</a>
-                    <a class="bookmark" href="https://animebytes.tv" traget="_blank">AnimeBytes</a>
+                    <a class="bookmark" href="https://passthepopcorn.me/">PassThePopcorn</a>
                     <a class="bookmark" href="https://pixelcove.me/">PixelCove</a>
                     <a class="bookmark" href="https://ptpimg.me/">PTPimg</a>
+                    <a class="bookmark" href="https://redacted.ch/">REDacted</a>
+                    <a class="bookmark" href="https://retrowithin.com/">RetroWithin</a>
                 </div>
             </div>
             <div class="bookmark-set">
                 <div class="bookmark-title">Media</div>
                 <div class="bookmark-inner-container">
-                    <a class="bookmark" href="https://rateyourmusic.com">RateYourMusic</a>
-                    <a class="bookmark" href="https://last.fm">last.fm</a>
                     <a class="bookmark" href="https://discogs.com">Discogs</a>
+                    <a class="bookmark" href="https://last.fm">last.fm</a>
+                    <a class="bookmark" href="http://gen.lib.rus.ec/">Library Genesis</a>
                     <a class="bookmark" href="https://musicbrainz.org">MusicBrainz</a>
+                    <a class="bookmark" href="https://plex.tv">Plex</a>
+                    <a class="bookmark" href="https://rateyourmusic.com">RateYourMusic</a>
+                    <a class="bookmark" href="https://youtube.com">YouTube</a>
+                    <a class="bookmark" href="http://b-ok.cc">Z-Library</a>
                 </div>
             </div>
             <div class="bookmark-set">
             	<div class="bookmark-title">4chan</div>
                 <div class="bookmark-inner-container">
                     <a class="bookmark" href="https://boards.4channel.org/g/">/g/ - Technology</a>
-                    <a class="bookmark" href="https://boards.4channel.org/tv/">/tv/ - Movies & Television</a>
+                    <a class="bookmark" href="https://boards.4channel.org/lit/">/lit/ - Literature</a>
                     <a class="bookmark" href="https://boards.4channel.org/mu/">/mu/ - Music</a>
+                    <a class="bookmark" href="https://boards.4channel.org/tv/">/tv/ - Movies & Television</a>
                     <a class="bookmark" href="https://boards.4channel.org/v/">/v/ - Video Games</a>
                     <a class="bookmark" href="https://boards.4channel.org/vr/">/vr/ - Retro Games</a>
                 </div>
@@ -52,6 +57,8 @@
                 <div class="bookmark-title">Social</div>
                 <div class="bookmark-inner-container">
                     <a class="bookmark" href="https://messenger.com">Messenger</a>
+                    <a class="bookmark" href="https://twitter.com">Twitter</a>
+                    <a class="bookmark" href="https://goodreads.com">Goodreads</a>
                 </div>
             </div>
         </div>
@@ -59,10 +66,17 @@
 
     <script>
         // Search on enter key event
+
         function search(e) {
             if (e.keyCode == 13) {
-                var val = document.getElementById("search-field").value;
-                window.open("https://google.com/search?q=" + val);
+                var vala = document.getElementById("search-field").value;
+                var val = vala.trim();
+                var re = new RegExp("^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$")
+                if (re.test(val)) {
+                    window.open("http://" + val,"_self");
+                } else {
+                window.open("https://google.com/search?q=" + val,"_self");
+            }
             }
         }
         // Get current time and format
