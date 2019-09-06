@@ -40,6 +40,7 @@
                     <a class="bookmark" href="https://rateyourmusic.com">RateYourMusic</a>
                     <a class="bookmark" href="https://youtube.com">YouTube</a>
                     <a class="bookmark" href="http://b-ok.cc">Z-Library</a>
+
                 </div>
             </div>
             <div class="bookmark-set">
@@ -71,7 +72,7 @@
             if (e.keyCode == 13) {
                 var vala = document.getElementById("search-field").value;
                 var val = vala.trim();
-                var re = new RegExp("^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$")
+                var re = /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/
                 if (re.test(val)) {
                     window.open("http://" + val,"_self");
                 } else {
