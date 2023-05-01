@@ -1,0 +1,25 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+  #sidebar ul { padding: 15px; color:red;}
+  #sidebar li { text-align: center; color: transparent;  font-size: 1.6em;}
+  #sidebar { width: 10%; position: fixed; left: 87%; top: 90%; margin: 0 0 0 0px; background-color: rgba(64, 64, 64, 0.32);}
+  
+body
+{
+  background-image: url(/starsless.png);
+  color: whitesmoke;
+  font-family: Arial;
+  background-size: contain;
+  text-shadow: 2.5px 3.5px 2.5px black;
+  font-size-adjust: 0.45;
+  image-rendering: pixelated;
+}
+
+a {
+    color:  #1a1aff;
+    text-shadow: 1px 1px 13px black;
+    font-size-adjust: 0.50;
+}
+
